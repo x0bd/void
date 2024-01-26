@@ -5,8 +5,8 @@ import presentation from '../data/presentation'
 const pathname = removeTrailingSlash(Astro.url.pathname);
 ---
 
-<header class="z-40 text-base font-thin flex w-full flex-col gap-2 md:flex-row md:justify-between">
-  <a href="/" class="hover:text-neutral-100"
+<header class="z-40 text-base font-light text-neutral-400 flex w-full flex-col gap-2 md:flex-row md:justify-between">
+  <a href="/" class="font-light hover:underline"
     >xoboid</a
   >
 
@@ -22,7 +22,6 @@ const pathname = removeTrailingSlash(Astro.url.pathname);
         >
       </li>
       <li></li>
-    
       <li>
         <a
           href="/projects"
@@ -40,6 +39,16 @@ const pathname = removeTrailingSlash(Astro.url.pathname);
             ["hover:text-neutral-100"]: true,
             ["text-neutral-100"]: pathname === "/art",
           }}>art</a
+        >
+      </li>
+      <li></li>
+      <li>
+        <a
+          href="/music"
+          class:list={{
+            ["hover:text-neutral-100"]: true,
+            ["text-neutral-100"]: pathname === "/art",
+          }}>music</a
         >
       </li>
     </ul>
