@@ -41,16 +41,6 @@ const pathname = removeTrailingSlash(Astro.url.pathname);
           }}>art</a
         >
       </li>
-      <li></li>
-      <li>
-        <a
-          href="/music"
-          class:list={{
-            ["hover:text-neutral-100"]: true,
-            ["text-neutral-100"]: pathname === "/art",
-          }}>music</a
-        >
-      </li>
     </ul>
   </nav>
 </header>
