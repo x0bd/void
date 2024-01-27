@@ -1,27 +1,36 @@
 export type Project = {
-  title: string;
-  techs: string[];
-  link: string;
-  isComingSoon?: boolean;
+	title: string;
+	description: string;
+	link: string;
+	experiment?: boolean;
+	year: number;
 };
 
 const projects: Project[] = [
-  {
-    title: "Dictionary App",
-    techs: ["ReactJS (NextJS)", "react-query", "zod"],
-    link: "https://github.com/MaeWolff/dictionary-app",
-  },
-  {
-    title: "Portfolio / Lina BLIDI",
-    techs: ["ReactJS (NextJS)", "TypeScript"],
-    link: "https://www.linablidi.fr/",
-  },
-  {
-    title: "Portfolio / Template",
-    techs: ["Astro"],
-    link: "/",
-    isComingSoon: true,
-  },
+	{
+		title: "void",
+		description: "my personal site + blog",
+		link: "xoboid.vercel.app",
+		year: 2023,
+	},
+	{
+		title: "celeste",
+		description: "a light and minimal client-side web framework",
+		link: "celeste.vercel.app",
+		year: 2023,
+	},
+	{
+		title: "palegen",
+		description: "generate color palettes from images",
+		link: "palegen.vercel.app",
+		year: 2023,
+	},
+	{
+		title: "orb",
+		description: "a webgl library",
+		link: "orb3d.vercel.app",
+		year: 2023,
+	},
 ];
 
 export default projects;

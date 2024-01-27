@@ -1,0 +1,19 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import projects from "../../data/projects";
+import ProjectCard from "../../components/ProjectCard.astro";
+---
+
+<Layout title="Template - All Posts">
+	<main class="flex flex-col gap-10">
+		<header class="flex w-full flex-row justify-between gap-2">
+			Projects
+		</header>
+		<section class="flex flex-col gap-4">
+			{
+				projects.length !== 0 &&
+					projects.map((project) => <ProjectCard {...project} />)
+			}
+		</section>
+	</main>
+</Layout>
