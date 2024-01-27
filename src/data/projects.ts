@@ -10,25 +10,25 @@ const projects: Project[] = [
 	{
 		title: "void",
 		description: "my personal site + blog",
-		link: "xoboid.vercel.app",
-		year: 2023,
+		link: "https://xoboid.vercel.app",
+		year: 2024,
 	},
 	{
 		title: "celeste",
 		description: "a light and minimal client-side web framework",
-		link: "celeste.vercel.app",
+		link: "https://github.com/x0bd/celeste",
 		year: 2023,
 	},
 	{
 		title: "palegen",
 		description: "generate color palettes from images",
-		link: "palegen.vercel.app",
+		link: "https://github.com/palegen",
 		year: 2023,
 	},
 	{
-		title: "orb",
-		description: "a webgl library",
-		link: "orb3d.vercel.app",
+		title: "wordle-lite",
+		description: "a wordle clone built with the latest web technologies",
+		link: "https://wordle-lite.vercel.ap",
 		year: 2023,
 	},
 ];
