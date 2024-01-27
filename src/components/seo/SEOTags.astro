@@ -1,15 +1,15 @@
 ---
-import {SEO} from "astro-seo"
-import { SITE_URL } from "../../data/config"
-import type { HeadTags } from "../../utils/types/HeadTags"
+import { SEO } from "astro-seo";
+import { SITE_URL } from "@/data/config";
+import type { HeadTags } from "@/utils/types/HeadTags";
 
 type Props = HeadTags;
 
 const { title, description, noindex, og } = Astro.props;
 
-const DEFAULT_TITLE_PAGE = "xoboid";
+const DEFAULT_TITLE_PAGE = "Astro - Portfolio template";
 const DEFAULT_DESCRIPTION_PAGE =
-  "dreamer | maker | explorer";
+  "A minimal portfolio template built with Astro and Tailwindcss.";
 const DEFAULT_URL_SITE = SITE_URL;
 
 const openGraph = {
@@ -21,10 +21,6 @@ const openGraph = {
   description: og?.description || DEFAULT_DESCRIPTION_PAGE,
 };
 ---
-
-
-
-
 
 <head>
   <SEO
@@ -43,7 +39,7 @@ const openGraph = {
       },
     }}
     twitter={{
-      creator: "@xoboid",
+      creator: "@itsstormzz_",
     }}
     extend={{
       link: [
@@ -60,7 +56,7 @@ const openGraph = {
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: openGraph.title },
         { name: "twitter:description", content: openGraph.description },
-        { name: "twitter:site", content: "@xoboid" },
+        { name: "twitter:site", content: "@itsstormzz_" },
       ],
     }}
   />
