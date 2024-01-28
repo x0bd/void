@@ -11,25 +11,28 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 <Layout title="All Posts">
 	<main class="flex flex-col gap-10">
 		<header class="flex w-full flex-row justify-between gap-2">
-			<h1 class="text-2xl text-neutral-100">
-				notes and doodles on computer stuff
+			<h1 class="text-2xl text-neutral-200">
+				notes and thoughts on computer stuff
 			</h1>
 		</header>
 		<article class="flex flex-col gap-4">
 			{
 				posts.map((post) => (
 					<a
-						class="group flex flex-col gap-2  py-4 text-neutral-400 transition-all hover:text-neutral-100"
+						class="group flex flex-col gap-2  py-4 text-neutral-300 transition-all hover:text-neutral-100"
 						href={`/posts/${post.slug}`}
 					>
-						<div class="flex w-full items-center justify-between">
-							<h2 class="text-lg">{post.data.title}</h2>
+						<h2 class="underline-neutral-400 under text-lg font-semibold underline underline-offset-4">
+							{post.data.title}
+						</h2>
 
-							<div class="flex flex-row items-center gap-4">
-								<p>{formatDate(post.data.publishedAt)}</p>
-							</div>
+						<p class="text-md">{post.data.description}</p>
+
+						<div class="flex flex-row items-center gap-4">
+							<p class="text-md">
+								{formatDate(post.data.publishedAt)}
+							</p>
 						</div>
-						<p>{post.data.description}</p>
 					</a>
 				))
 			}

@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.under {
+	text-decoration-color: gray;
+	text-decoration: underline;
+}

@@ -1,7 +1,7 @@
 ---
 title: "Building Games With Generative Agents."
 publishedAt: 2023-09-17
-description: "Possibly this is my favorite application of LLMs"
+description: "This is possibly my favorite application of LLMs"
 slug: "generative-games"
 isPublish: true
 ---
