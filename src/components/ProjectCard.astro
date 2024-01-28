@@ -5,17 +5,22 @@ type Props = Project;
 
 const { title, description, link, year } = Astro.props;
 ---
+
 {
-    <a
-        class="group flex w-full cursor-pointer flex-col justify-between gap-2 rounded-xl hover:border-neutral-800 hover:bg-neutral-800 p-2 transition-all duration-300"
-        href={link}
-        target="_blank"
-        rel="noreferrer"
-    >
-        <div class="flex flex-row gap-1 items-center">
-            <p class="text-neutral-200 font-semibold">{title}</p>
-            <p class="text-neutral-400 flex-auto font-light">{description}</p>
-            <p class="text-neutral-400 font-mono font-light">{year}</p>
-        </div>
-    </a>
+	(
+		<a
+			class="group flex w-full cursor-pointer flex-col justify-between gap-2 rounded-xl p-2 transition-all duration-300 hover:border-neutral-800 hover:bg-neutral-800"
+			href={link}
+			target="_blank"
+			rel="noreferrer"
+		>
+			<div class="flex flex-row items-center gap-2">
+				<p class="font-semibold text-neutral-200">{title}</p>
+				<p class="flex-auto font-light text-neutral-400">
+					{description}
+				</p>
+				<p class="font-mono font-light text-neutral-400">{year}</p>
+			</div>
+		</a>
+	)
 }

@@ -27,7 +27,7 @@ const projects: Project[] = [
 	},
 	{
 		title: "wordle-lite",
-		description: "a wordle clone built with the latest web technologies",
+		description: "a wordle clone.",
 		link: "https://wordle-lite.vercel.ap",
 		year: 2023,
 	},
