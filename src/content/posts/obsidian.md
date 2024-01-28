@@ -22,13 +22,13 @@ So, why did I eventually make the switch to Obsidian?
 
 Let me share my journey of discovery.
 
-![[Pasted image 20231204100843.png]]
+![Takuya](https://i.ibb.co/dJH1tpM/Pasted-image-20231204100843.png)
 
 It all started when I stumbled upon a YouTube channel called [devaslife](https://www.youtube.com/@devaslife) by [Takuya Matsumaya](https://twitter.com/inkdrop_app?lang=en), an indie hacker and the creator of the note-taking app [Inkdrop](https://www.inkdrop.app/). As I watched his videos, I couldn't help but notice the stunning aesthetics of Inkdrop's glassmorphic user interface. I longed for that look and feel within Notion but couldn't find a way to achieve it through plugins or customization options. Unfortunately, Inkdrop fell outside my budget as a premium app.
 
 Then, one day, the X algorithm worked its magic and recommended a tweet about new themes from the CEO of Obsidian, [Steph Ango](https://twitter.com/kepano). The folder-based approach of Obsidian reminded me of Notion, but there was something undeniably modern about Obsidian's design. The fonts, the app icon—everything felt more refined. In contrast, Notion's icon, which I had grown accustomed to, suddenly appeared lackluster and out of place.
 
-![[Pasted image 20231204101806.png]]
+![Obsdian Themes](https://i.ibb.co/cNmQJh0/Pasted-image-20231204101806.png)
 
 Let's talk about the typing experience.
 

@@ -194,28 +194,21 @@ declare module 'astro:content' {
   slug: "generative-games";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"min-js.md": {
-	id: "min-js.md";
-  slug: "min.js";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "obsidian.md": {
 	id: "obsidian.md";
   slug: "obsidian";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "windows-terminal.md": {
 	id: "windows-terminal.md";
   slug: "win-shell";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 };
 
@@ -227,5 +220,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	type ContentConfig = typeof import("../src/content/config");
+	type ContentConfig = never;
 }
