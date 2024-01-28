@@ -9,9 +9,12 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 ---
 
 <Layout title="All Posts">
-	<main class="flex flex-col gap-20">
-		<h1 class="text-2xl text-neutral-100">Posts</h1>
-
+	<main class="flex flex-col gap-10">
+		<header class="flex w-full flex-row justify-between gap-2">
+			<h1 class="text-2xl text-neutral-100">
+				notes and doodles on computer stuff
+			</h1>
+		</header>
 		<article class="flex flex-col gap-4">
 			{
 				posts.map((post) => (
