@@ -11,7 +11,7 @@
 }
 
 .post code {
-	@apply rounded-sm bg-[#26233a] px-1 py-[2px] text-[#ebbcba];
+	@apply px-1 py-[2px] font-mono;
 }
 
 .post a {
