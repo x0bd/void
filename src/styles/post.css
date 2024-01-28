@@ -1,5 +1,18 @@
 .post p {
-	@apply m-3 leading-7 text-neutral-400;
+	@apply my-3 leading-7 text-neutral-400;
+}
+
+.post li {
+	@apply mx-12 text-neutral-400;
+}
+
+.post b,
+.post strong {
+	@apply text-neutral-300;
+}
+
+.post img {
+	@apply rounded-md;
 }
 
 .post h2 {

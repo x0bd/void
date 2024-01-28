@@ -1,14 +1,12 @@
 ---
-title: "slack"
-publishedAt: 2023-06-29
-description: "Possibly the my favorite application of LLMs"
+title: "Creating  SlackBot With JavaScript"
+publishedAt: 2023-10-31
+description: "Creating a SlackBot that reacts to every message sent by a specific user"
 slug: "slack"
 isPublish: true
 ---
 
 ![Bot](https://i.ibb.co/JKkZ40g/1-ibstdbkjnfmxqnqtmwdxkq.png)
-
-Creating a SlackBot that reacts to every message sent by a specific user.
 
 ## Creating a New Slack App
 
